@@ -1,4 +1,4 @@
-name: Testando
+name: Testes PHP
 
 on:
   push:
@@ -6,13 +6,13 @@ on:
   pull_request:
     branches: [ master ]
 
-
 jobs:
-   testes:
+  testes:
     runs-on: ubuntu-latest
-   
+
     steps:
-      -name: primeiro
-       run: echo "aaaaaaaaaaaaaaaaaaaaaaaaa" 
-      -name: segundo
-       run: echo "bbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      - name: primeiro passo
+        run: echo "world"
+
+      - name: segundo passo
+        run: echo "hello"
