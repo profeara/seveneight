@@ -2,13 +2,13 @@ name: Testando
 
 on:
   push:
-    branch: [ master ]
+    branches: [ master ]
   pull_request:
-    branch: [ master ]
+    branches: [ master ]
 
 
 jobs:
-   tests:
+   testes:
     runs-on: ubuntu-lastest
    
     steps:
